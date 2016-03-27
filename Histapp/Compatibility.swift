@@ -8,11 +8,11 @@
 
 import Foundation
 
-enum Compatibility {
-    case WELL_TOLERATED
-    case MODERATELY_TOLERATED
-    case INCOMPATIBLE
-    case POORLY_TOLARATED
-    case NO_STATEMENT // -
-    case INSUFFICIENT_INFO // ?
+enum Compatibility : String{
+    case WELL_TOLERATED = "0"
+    case MODERATELY_TOLERATED = "1"
+    case INCOMPATIBLE = "2"
+    case POORLY_TOLARATED = "3"
+    case NO_STATEMENT = "-"
+    case INSUFFICIENT_INFO = "?"
 }

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7836ED61CA6CAFB00ABE992 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7836ED51CA6CAFB00ABE992 /* Data.swift */; };
+		C7836ED81CA6CC9D00ABE992 /* fried_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7836ED71CA6CC9D00ABE992 /* fried_egg.jpg */; };
+		C7836EDA1CA6CD5E00ABE992 /* quail_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7836ED91CA6CD5E00ABE992 /* quail_egg.jpg */; };
+		C7836EDC1CA6CF0A00ABE992 /* blue_cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7836EDB1CA6CF0A00ABE992 /* blue_cheese.jpg */; };
+		C7836EDE1CA6CFB500ABE992 /* butter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7836EDD1CA6CFB500ABE992 /* butter.jpg */; };
+		C7836EE01CA6D63C00ABE992 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7836EDF1CA6D63C00ABE992 /* IngredientTableViewCell.swift */; };
 		C7EF42441C921E9C00FB58B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EF42431C921E9C00FB58B2 /* AppDelegate.swift */; };
 		C7EF42461C921E9C00FB58B2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EF42451C921E9C00FB58B2 /* MasterViewController.swift */; };
 		C7EF42481C921E9C00FB58B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EF42471C921E9C00FB58B2 /* DetailViewController.swift */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7836ED51CA6CAFB00ABE992 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C7836ED71CA6CC9D00ABE992 /* fried_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fried_egg.jpg; path = ../../../Documents/Histapp/fried_egg.jpg; sourceTree = "<group>"; };
+		C7836ED91CA6CD5E00ABE992 /* quail_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = quail_egg.jpg; path = ../../../Documents/Histapp/quail_egg.jpg; sourceTree = "<group>"; };
+		C7836EDB1CA6CF0A00ABE992 /* blue_cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue_cheese.jpg; path = ../../../Documents/Histapp/blue_cheese.jpg; sourceTree = "<group>"; };
+		C7836EDD1CA6CFB500ABE992 /* butter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = butter.jpg; path = ../../../Documents/Histapp/butter.jpg; sourceTree = "<group>"; };
+		C7836EDF1CA6D63C00ABE992 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 		C7EF42401C921E9C00FB58B2 /* Histapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EF42431C921E9C00FB58B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7EF42451C921E9C00FB58B2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7836ED31CA6C9BB00ABE992 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7836EDD1CA6CFB500ABE992 /* butter.jpg */,
+				C7836EDB1CA6CF0A00ABE992 /* blue_cheese.jpg */,
+				C7836ED91CA6CD5E00ABE992 /* quail_egg.jpg */,
+				C7836ED71CA6CC9D00ABE992 /* fried_egg.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C7836ED41CA6CAE300ABE992 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C7836ED51CA6CAFB00ABE992 /* Data.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		C7836EE11CA6DC8600ABE992 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7836EDF1CA6D63C00ABE992 /* IngredientTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		C7EF42371C921E9C00FB58B2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +146,9 @@
 		C7EF42421C921E9C00FB58B2 /* Histapp */ = {
 			isa = PBXGroup;
 			children = (
+				C7836ED41CA6CAE300ABE992 /* Data */,
+				C7836EE11CA6DC8600ABE992 /* Views */,
+				C7836ED31CA6C9BB00ABE992 /* Images */,
 				C7EF42731C92209D00FB58B2 /* Model */,
 				C7EF42431C921E9C00FB58B2 /* AppDelegate.swift */,
 				C7EF42451C921E9C00FB58B2 /* MasterViewController.swift */,
@@ -255,7 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7836EDC1CA6CF0A00ABE992 /* blue_cheese.jpg in Resources */,
+				C7836ED81CA6CC9D00ABE992 /* fried_egg.jpg in Resources */,
 				C7EF42501C921E9C00FB58B2 /* LaunchScreen.storyboard in Resources */,
+				C7836EDA1CA6CD5E00ABE992 /* quail_egg.jpg in Resources */,
+				C7836EDE1CA6CFB500ABE992 /* butter.jpg in Resources */,
 				C7EF424D1C921E9C00FB58B2 /* Assets.xcassets in Resources */,
 				C7EF424B1C921E9C00FB58B2 /* Main.storyboard in Resources */,
 			);
@@ -289,6 +335,8 @@
 				C7EF42441C921E9C00FB58B2 /* AppDelegate.swift in Sources */,
 				C7EF42791C92211F00FB58B2 /* Compatibility.swift in Sources */,
 				C7EF427D1C92213E00FB58B2 /* Options.swift in Sources */,
+				C7836ED61CA6CAFB00ABE992 /* Data.swift in Sources */,
+				C7836EE01CA6D63C00ABE992 /* IngredientTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +563,7 @@
 				C7EF426C1C921E9C00FB58B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7EF426D1C921E9C00FB58B2 /* Build configuration list for PBXNativeTarget "HistappTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +572,7 @@
 				C7EF426F1C921E9C00FB58B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7EF42701C921E9C00FB58B2 /* Build configuration list for PBXNativeTarget "HistappUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +581,7 @@
 				C7EF42721C921E9C00FB58B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

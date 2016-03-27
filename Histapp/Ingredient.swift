@@ -18,9 +18,10 @@ class Ingredient {
     var type : String = ""
     var family : String = ""
     var remarks : String = ""
+    var image : String = ""
     
     init(family: String, type: String, name: String, compatibility: Compatibility, remarks: String,
-        histamine: Histamine, otherAmines: Options, liberator: Options, blocker: Options){
+        histamine: Histamine, otherAmines: Options, liberator: Options, blocker: Options, image: String){
             self.family = family
             self.type = type
             self.compatibility = compatibility
@@ -29,6 +30,8 @@ class Ingredient {
             self.liberator = liberator
             self.blocker = blocker
             self.remarks = remarks
+            self.name = name
+            self.image = image
     }
     
 }
